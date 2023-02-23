@@ -15,10 +15,10 @@ class Pompe:
 
 class Station:
 
-    def __init__(self, id, cp, ville, departement, region, adresse, epci_nom, latitude, longitude, flag_automate_24,
-                 pompes, services):
+    def __init__(self, id, cp, ville, departement, region, adresse, epci_nom, latitude, longitude, flag_automate_24, pompes, services):
         self.id = id
         self.cp = cp
+        self.ville = ville
         self.departement = departement
         self.region = region
         self.adresse = adresse
@@ -31,27 +31,27 @@ class Station:
     @staticmethod
     def from_dict(data):
         return Station(data["id"], data["com_code"], data["ville"], data["dep_name"], data["reg_name"], data["adresse"]
-                       , data["epci_name"], data["geom"][0], data["geom"][1], data["horaires_automate_24_24"] == "Non",
-                       [Pompe(data["prix_valeur"], data["prix_nom"])], data.get("services_service", "").split("//"))
+        , data["epci_name"], data["geom"][0], data["geom"][1], data["horaires_automate_24_24"] == "Non",
+        [Pompe(data["prix_valeur"], data["prix_nom"])], data.get("services_service", "").split("//"))
 
     def parse_from_text(data: str) -> dict:
 
-        list_stations_records = json.loads(data)["records"]
-        list_stations = list()
+        recordedStationsList = json.loads(data)["records"]
+        stationsList = list()
 
-        for s_raw in list_stations_records:
+        for s_raw in recordedStationsList:
             station = Station.from_dict(s_raw["fields"])
             merged = False
 
-            for s in list_stations:
+            for s in stationsList:
                 if station.id == s.id:
-                    list_stations[list_stations.index(s)].pompes.append(s.pompes[0])
+                    stationsList[stationsList.index(s)].pompes.append(s.pompes[0])
                     merged = True
 
             if not merged:
-                list_stations.append(station)
+                stationsList.append(station)
 
-        return list_stations
+        return stationsList
 
     @staticmethod
     def sort_by_carburant(stations, carburant):
