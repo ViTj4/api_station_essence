@@ -1,0 +1,848 @@
+{
+  "nhits": 47,
+  "parameters": {
+    "dataset": "prix-carburants-fichier-instantane-test-ods-copie",
+    "q": "ville=LILLE",
+    "rows": 10,
+    "start": 0,
+    "facet": [
+      "id",
+      "adresse",
+      "ville",
+      "prix_maj",
+      "prix_nom",
+      "com_arm_name",
+      "epci_name",
+      "dep_name",
+      "reg_name",
+      "services_service",
+      "horaires_automate_24_24"
+    ],
+    "format": "json",
+    "timezone": "UTC"
+  },
+  "records": [
+    {
+      "datasetid": "prix-carburants-fichier-instantane-test-ods-copie",
+      "recordid": "883b217dbd4b62e05281dd752df845309c971331",
+      "fields": {
+        "ville": "Lille",
+        "pop": "R",
+        "reg_name": "Hauts-de-France",
+        "com_arm_code": "59350",
+        "dep_name": "Nord",
+        "prix_nom": "Gazole",
+        "com_code": "59350",
+        "epci_name": "Métropole Européenne de Lille",
+        "dep_code": "59",
+        "services_service": "Boutique alimentaire//Restauration à emporter//Station de gonflage//Services réparation / entretien//Vente de gaz domestique (Butane, Propane)",
+        "prix_id": "1",
+        "horaires_automate_24_24": "Non",
+        "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+        "com_arm_name": "Lille",
+        "prix_maj": "2022-11-23T10:45:00+00:00",
+        "id": "59000010",
+        "reg_code": "32",
+        "adresse": "72 Avenue du Président John F. Kennedy",
+        "geom": [
+          50.632,
+          3.07
+        ],
+        "epci_code": "200093201",
+        "cp": "59000",
+        "prix_valeur": 1.854,
+        "com_name": "Lille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.07,
+          50.632
+        ]
+      }
+    },
+    {
+      "datasetid": "prix-carburants-fichier-instantane-test-ods-copie",
+      "recordid": "a1f74dea1b64e70d7a19d3c8801ec9f0fd249f56",
+      "fields": {
+        "ville": "Lille",
+        "pop": "R",
+        "reg_name": "Hauts-de-France",
+        "com_arm_code": "59350",
+        "dep_name": "Nord",
+        "prix_nom": "SP98",
+        "com_code": "59350",
+        "epci_name": "Métropole Européenne de Lille",
+        "dep_code": "59",
+        "services_service": "Boutique alimentaire//Restauration à emporter//Station de gonflage//Services réparation / entretien//Vente de gaz domestique (Butane, Propane)",
+        "prix_id": "6",
+        "horaires_automate_24_24": "Non",
+        "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+        "com_arm_name": "Lille",
+        "prix_maj": "2022-11-23T10:45:00+00:00",
+        "id": "59000010",
+        "reg_code": "32",
+        "adresse": "72 Avenue du Président John F. Kennedy",
+        "geom": [
+          50.632,
+          3.07
+        ],
+        "epci_code": "200093201",
+        "cp": "59000",
+        "prix_valeur": 1.781,
+        "com_name": "Lille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.07,
+          50.632
+        ]
+      }
+    },
+    {
+      "datasetid": "prix-carburants-fichier-instantane-test-ods-copie",
+      "recordid": "4933b6fbcee6937e8913169aa832634158371bd6",
+      "fields": {
+        "ville": "Lille",
+        "pop": "R",
+        "reg_name": "Hauts-de-France",
+        "com_arm_code": "59350",
+        "dep_name": "Nord",
+        "prix_nom": "E10",
+        "com_code": "59350",
+        "epci_name": "Métropole Européenne de Lille",
+        "dep_code": "59",
+        "services_service": "Boutique alimentaire//Restauration à emporter//Station de gonflage//Services réparation / entretien//Vente de gaz domestique (Butane, Propane)",
+        "prix_id": "5",
+        "horaires_automate_24_24": "Non",
+        "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+        "com_arm_name": "Lille",
+        "prix_maj": "2022-11-23T10:45:00+00:00",
+        "id": "59000010",
+        "reg_code": "32",
+        "adresse": "72 Avenue du Président John F. Kennedy",
+        "geom": [
+          50.632,
+          3.07
+        ],
+        "epci_code": "200093201",
+        "cp": "59000",
+        "prix_valeur": 1.701,
+        "com_name": "Lille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.07,
+          50.632
+        ]
+      }
+    },
+    {
+      "datasetid": "prix-carburants-fichier-instantane-test-ods-copie",
+      "recordid": "6aee1af2aa3d1e911098b671a13be9e8289bbf44",
+      "fields": {
+        "ville": "LILLE",
+        "pop": "R",
+        "reg_name": "Hauts-de-France",
+        "com_arm_code": "59350",
+        "dep_name": "Nord",
+        "prix_nom": "SP98",
+        "com_code": "59350",
+        "epci_name": "Métropole Européenne de Lille",
+        "dep_code": "59",
+        "services_service": "Relais colis//Boutique alimentaire//Boutique non alimentaire//Station de gonflage//Carburant additivé//Lavage automatique//Vente de gaz domestique (Butane, Propane)//Automate CB 24/24",
+        "prix_id": "6",
+        "horaires_automate_24_24": "Oui",
+        "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"19.30\"}}]}",
+        "com_arm_name": "Lille",
+        "prix_maj": "2022-11-23T00:01:00+00:00",
+        "id": "59000016",
+        "reg_code": "32",
+        "adresse": "112 RUE DE LA BASSEE",
+        "geom": [
+          50.626,
+          3.035
+        ],
+        "epci_code": "200093201",
+        "cp": "59000",
+        "prix_valeur": 1.776,
+        "com_name": "Lille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.035,
+          50.626
+        ]
+      }
+    },
+    {
+      "datasetid": "prix-carburants-fichier-instantane-test-ods-copie",
+      "recordid": "04f2f8b08afcb315977b1d5c59115b10e9caffeb",
+      "fields": {
+        "ville": "LILLE",
+        "pop": "R",
+        "reg_name": "Hauts-de-France",
+        "com_arm_code": "59350",
+        "dep_name": "Nord",
+        "prix_nom": "Gazole",
+        "com_code": "59350",
+        "epci_name": "Métropole Européenne de Lille",
+        "dep_code": "59",
+        "prix_id": "1",
+        "horaires_automate_24_24": "Non",
+        "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+        "com_arm_name": "Lille",
+        "prix_maj": "2022-11-23T00:01:00+00:00",
+        "id": "59000017",
+        "reg_code": "32",
+        "adresse": "365, BOULEVARD VICTOR HUGO",
+        "geom": [
+          50.618,
+          3.051
+        ],
+        "epci_code": "200093201",
+        "cp": "59000",
+        "prix_valeur": 1.803,
+        "com_name": "Lille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.051,
+          50.618
+        ]
+      }
+    },
+    {
+      "datasetid": "prix-carburants-fichier-instantane-test-ods-copie",
+      "recordid": "ce00112976d0c7a82f3f227821a8bd6ccf0c0b7a",
+      "fields": {
+        "ville": "LILLE",
+        "pop": "R",
+        "reg_name": "Hauts-de-France",
+        "com_arm_code": "59350",
+        "dep_name": "Nord",
+        "prix_nom": "E10",
+        "com_code": "59350",
+        "epci_name": "Métropole Européenne de Lille",
+        "dep_code": "59",
+        "services_service": "Boutique alimentaire//Boutique non alimentaire//Vente de pétrole lampant//Station de gonflage//Carburant additivé//Lavage automatique//Vente de gaz domestique (Butane, Propane)//Vente d'additifs carburants//Wifi//Automate CB 24/24",
+        "prix_id": "5",
+        "horaires_automate_24_24": "Oui",
+        "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.00\", \"@fermeture\": \"22.00\"}]}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.00\", \"@fermeture\": \"22.00\"}]}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.00\", \"@fermeture\": \"22.00\"}]}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.00\", \"@fermeture\": \"22.00\"}]}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"06.00\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.00\", \"@fermeture\": \"22.00\"}]}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.00\", \"@fermeture\": \"22.00\"}]}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": [{\"@ouverture\": \"07.30\", \"@fermeture\": \"12.00\"}, {\"@ouverture\": \"12.00\", \"@fermeture\": \"22.00\"}]}]}",
+        "com_arm_name": "Lille",
+        "prix_maj": "2022-11-23T00:01:00+00:00",
+        "id": "59000018",
+        "reg_code": "32",
+        "adresse": "91 RUE DU FAUBOURG BETHUNE",
+        "geom": [
+          50.617,
+          3.024
+        ],
+        "epci_code": "200093201",
+        "cp": "59000",
+        "prix_valeur": 1.644,
+        "com_name": "Lille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.024,
+          50.617
+        ]
+      }
+    },
+    {
+      "datasetid": "prix-carburants-fichier-instantane-test-ods-copie",
+      "recordid": "ca72ce67afd7bb50c599806d520e1170c4769882",
+      "fields": {
+        "ville": "LILLE",
+        "pop": "R",
+        "reg_name": "Hauts-de-France",
+        "com_arm_code": "59350",
+        "dep_name": "Nord",
+        "prix_nom": "E10",
+        "com_code": "59350",
+        "epci_name": "Métropole Européenne de Lille",
+        "dep_code": "59",
+        "prix_id": "5",
+        "horaires_automate_24_24": "Non",
+        "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+        "com_arm_name": "Lille",
+        "prix_maj": "2022-11-23T00:01:00+00:00",
+        "id": "59000017",
+        "reg_code": "32",
+        "adresse": "365, BOULEVARD VICTOR HUGO",
+        "geom": [
+          50.618,
+          3.051
+        ],
+        "epci_code": "200093201",
+        "cp": "59000",
+        "prix_valeur": 1.645,
+        "com_name": "Lille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.051,
+          50.618
+        ]
+      }
+    },
+    {
+      "datasetid": "prix-carburants-fichier-instantane-test-ods-copie",
+      "recordid": "8f769f662cb94341399cb8700855e9b88d671d3e",
+      "fields": {
+        "ville": "LILLE",
+        "pop": "R",
+        "reg_name": "Hauts-de-France",
+        "com_arm_code": "59350",
+        "dep_name": "Nord",
+        "prix_nom": "Gazole",
+        "com_code": "59350",
+        "epci_name": "Métropole Européenne de Lille",
+        "dep_code": "59",
+        "services_service": "Boutique alimentaire//Boutique non alimentaire//Vente de fioul domestique//Vente de pétrole lampant//Vente de gaz domestique (Butane, Propane)//DAB (Distributeur automatique de billets)",
+        "prix_id": "1",
+        "horaires_automate_24_24": "Non",
+        "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+        "com_arm_name": "Lille",
+        "prix_maj": "2022-11-22T09:54:44+00:00",
+        "id": "59800002",
+        "reg_code": "32",
+        "adresse": "94 Rue de Lannoy",
+        "geom": [
+          50.634,
+          3.098
+        ],
+        "epci_code": "200093201",
+        "cp": "59000",
+        "prix_valeur": 1.846,
+        "com_name": "Lille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.098,
+          50.634
+        ]
+      }
+    },
+    {
+      "datasetid": "prix-carburants-fichier-instantane-test-ods-copie",
+      "recordid": "132c1c58ef2acb863039380333698792488c09b6",
+      "fields": {
+        "ville": "LILLE",
+        "pop": "R",
+        "reg_name": "Hauts-de-France",
+        "com_arm_code": "59350",
+        "dep_name": "Nord",
+        "prix_nom": "Gazole",
+        "com_code": "59350",
+        "epci_name": "Métropole Européenne de Lille",
+        "dep_code": "59",
+        "services_service": "Relais colis//Boutique alimentaire//Boutique non alimentaire//Station de gonflage//Carburant additivé//Lavage automatique//Vente de gaz domestique (Butane, Propane)//Automate CB 24/24",
+        "prix_id": "1",
+        "horaires_automate_24_24": "Oui",
+        "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.00\", \"@fermeture\": \"20.30\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"10.00\", \"@fermeture\": \"19.30\"}}]}",
+        "com_arm_name": "Lille",
+        "prix_maj": "2022-11-23T00:01:00+00:00",
+        "id": "59000016",
+        "reg_code": "32",
+        "adresse": "112 RUE DE LA BASSEE",
+        "geom": [
+          50.626,
+          3.035
+        ],
+        "epci_code": "200093201",
+        "cp": "59000",
+        "prix_valeur": 1.804,
+        "com_name": "Lille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.035,
+          50.626
+        ]
+      }
+    },
+    {
+      "datasetid": "prix-carburants-fichier-instantane-test-ods-copie",
+      "recordid": "ba298334641566ba2cf65fdd6d84e44d83bd5a6b",
+      "fields": {
+        "ville": "LILLE",
+        "pop": "R",
+        "reg_name": "Hauts-de-France",
+        "com_arm_code": "59350",
+        "dep_name": "Nord",
+        "prix_nom": "Gazole",
+        "com_code": "59350",
+        "epci_name": "Métropole Européenne de Lille",
+        "dep_code": "59",
+        "prix_id": "1",
+        "services_service": "DAB (Distributeur automatique de billets)",
+        "horaires_automate_24_24": "Non",
+        "com_arm_name": "Lille",
+        "prix_maj": "2022-11-19T09:35:59+00:00",
+        "id": "59800001",
+        "reg_code": "32",
+        "adresse": "268 Rue Pierre Legrand",
+        "geom": [
+          50.63085487,
+          3.0959734934800003
+        ],
+        "epci_code": "200093201",
+        "cp": "59000",
+        "prix_valeur": 1.873,
+        "com_name": "Lille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0959734934800003,
+          50.63085487
+        ]
+      }
+    }
+  ],
+  "facet_groups": [
+    {
+      "name": "id",
+      "facets": [
+        {
+          "name": "59000016",
+          "count": 4,
+          "state": "displayed",
+          "path": "59000016"
+        },
+        {
+          "name": "59000017",
+          "count": 4,
+          "state": "displayed",
+          "path": "59000017"
+        },
+        {
+          "name": "59000020",
+          "count": 4,
+          "state": "displayed",
+          "path": "59000020"
+        },
+        {
+          "name": "59120002",
+          "count": 4,
+          "state": "displayed",
+          "path": "59120002"
+        },
+        {
+          "name": "59350002",
+          "count": 4,
+          "state": "displayed",
+          "path": "59350002"
+        },
+        {
+          "name": "59520001",
+          "count": 4,
+          "state": "displayed",
+          "path": "59520001"
+        },
+        {
+          "name": "59520003",
+          "count": 4,
+          "state": "displayed",
+          "path": "59520003"
+        },
+        {
+          "name": "59800002",
+          "count": 4,
+          "state": "displayed",
+          "path": "59800002"
+        },
+        {
+          "name": "59000009",
+          "count": 3,
+          "state": "displayed",
+          "path": "59000009"
+        },
+        {
+          "name": "59000010",
+          "count": 3,
+          "state": "displayed",
+          "path": "59000010"
+        },
+        {
+          "name": "59000018",
+          "count": 3,
+          "state": "displayed",
+          "path": "59000018"
+        },
+        {
+          "name": "59000019",
+          "count": 3,
+          "state": "displayed",
+          "path": "59000019"
+        },
+        {
+          "name": "59800001",
+          "count": 3,
+          "state": "displayed",
+          "path": "59800001"
+        }
+      ]
+    },
+    {
+      "name": "adresse",
+      "facets": [
+        {
+          "name": "112 RUE DE LA BASSEE",
+          "count": 4,
+          "state": "displayed",
+          "path": "112 RUE DE LA BASSEE"
+        },
+        {
+          "name": "17 A 25 RUE ROGER SALENGRO",
+          "count": 4,
+          "state": "displayed",
+          "path": "17 A 25 RUE ROGER SALENGRO"
+        },
+        {
+          "name": "17 RUE DU GENERAL LECLERC",
+          "count": 4,
+          "state": "displayed",
+          "path": "17 RUE DU GENERAL LECLERC"
+        },
+        {
+          "name": "365, BOULEVARD VICTOR HUGO",
+          "count": 4,
+          "state": "displayed",
+          "path": "365, BOULEVARD VICTOR HUGO"
+        },
+        {
+          "name": "92, RUE GEORGES POTIE",
+          "count": 4,
+          "state": "displayed",
+          "path": "92, RUE GEORGES POTIE"
+        },
+        {
+          "name": "94 Rue de Lannoy",
+          "count": 4,
+          "state": "displayed",
+          "path": "94 Rue de Lannoy"
+        },
+        {
+          "name": "Rue Georges Maertens",
+          "count": 4,
+          "state": "displayed",
+          "path": "Rue Georges Maertens"
+        },
+        {
+          "name": "Rue des moissons (ZAC DU TOUQUET)",
+          "count": 4,
+          "state": "displayed",
+          "path": "Rue des moissons (ZAC DU TOUQUET)"
+        },
+        {
+          "name": "2, RUE DE TURENNE",
+          "count": 3,
+          "state": "displayed",
+          "path": "2, RUE DE TURENNE"
+        },
+        {
+          "name": "268 Rue Pierre Legrand",
+          "count": 3,
+          "state": "displayed",
+          "path": "268 Rue Pierre Legrand"
+        },
+        {
+          "name": "72 Avenue du Président John F. Kennedy",
+          "count": 3,
+          "state": "displayed",
+          "path": "72 Avenue du Président John F. Kennedy"
+        },
+        {
+          "name": "83 Boulevard Montebello",
+          "count": 3,
+          "state": "displayed",
+          "path": "83 Boulevard Montebello"
+        },
+        {
+          "name": "91 RUE DU FAUBOURG BETHUNE",
+          "count": 3,
+          "state": "displayed",
+          "path": "91 RUE DU FAUBOURG BETHUNE"
+        }
+      ]
+    },
+    {
+      "name": "ville",
+      "facets": [
+        {
+          "name": "LILLE",
+          "count": 25,
+          "state": "displayed",
+          "path": "LILLE"
+        },
+        {
+          "name": "MARQUETTE-LEZ-LILLE",
+          "count": 8,
+          "state": "displayed",
+          "path": "MARQUETTE-LEZ-LILLE"
+        },
+        {
+          "name": "Lille",
+          "count": 6,
+          "state": "displayed",
+          "path": "Lille"
+        },
+        {
+          "name": "LOOS LES LILLE",
+          "count": 4,
+          "state": "displayed",
+          "path": "LOOS LES LILLE"
+        },
+        {
+          "name": "SAINT-ANDRE-LEZ-LILLE",
+          "count": 4,
+          "state": "displayed",
+          "path": "SAINT-ANDRE-LEZ-LILLE"
+        }
+      ]
+    },
+    {
+      "name": "prix_maj",
+      "facets": [
+        {
+          "name": "2022",
+          "count": 47,
+          "state": "displayed",
+          "path": "2022"
+        }
+      ]
+    },
+    {
+      "name": "prix_nom",
+      "facets": [
+        {
+          "name": "Gazole",
+          "count": 13,
+          "state": "displayed",
+          "path": "Gazole"
+        },
+        {
+          "name": "E10",
+          "count": 12,
+          "state": "displayed",
+          "path": "E10"
+        },
+        {
+          "name": "SP98",
+          "count": 12,
+          "state": "displayed",
+          "path": "SP98"
+        },
+        {
+          "name": "E85",
+          "count": 8,
+          "state": "displayed",
+          "path": "E85"
+        },
+        {
+          "name": "GPLc",
+          "count": 1,
+          "state": "displayed",
+          "path": "GPLc"
+        },
+        {
+          "name": "SP95",
+          "count": 1,
+          "state": "displayed",
+          "path": "SP95"
+        }
+      ]
+    },
+    {
+      "name": "com_arm_name",
+      "facets": [
+        {
+          "name": "Lille",
+          "count": 31,
+          "state": "displayed",
+          "path": "Lille"
+        },
+        {
+          "name": "Saint-André-lez-Lille",
+          "count": 8,
+          "state": "displayed",
+          "path": "Saint-André-lez-Lille"
+        },
+        {
+          "name": "Loos",
+          "count": 4,
+          "state": "displayed",
+          "path": "Loos"
+        },
+        {
+          "name": "Marquette-lez-Lille",
+          "count": 4,
+          "state": "displayed",
+          "path": "Marquette-lez-Lille"
+        }
+      ]
+    },
+    {
+      "name": "epci_name",
+      "facets": [
+        {
+          "name": "Métropole Européenne de Lille",
+          "count": 47,
+          "state": "displayed",
+          "path": "Métropole Européenne de Lille"
+        }
+      ]
+    },
+    {
+      "name": "dep_name",
+      "facets": [
+        {
+          "name": "Nord",
+          "count": 47,
+          "state": "displayed",
+          "path": "Nord"
+        }
+      ]
+    },
+    {
+      "name": "reg_name",
+      "facets": [
+        {
+          "name": "Hauts-de-France",
+          "count": 47,
+          "state": "displayed",
+          "path": "Hauts-de-France"
+        }
+      ]
+    },
+    {
+      "name": "services_service",
+      "facets": [
+        {
+          "name": "Vente de gaz domestique (Butane, Propane)",
+          "count": 29,
+          "state": "displayed",
+          "path": "Vente de gaz domestique (Butane, Propane)"
+        },
+        {
+          "name": "Boutique alimentaire",
+          "count": 25,
+          "state": "displayed",
+          "path": "Boutique alimentaire"
+        },
+        {
+          "name": "Boutique non alimentaire",
+          "count": 22,
+          "state": "displayed",
+          "path": "Boutique non alimentaire"
+        },
+        {
+          "name": "Carburant additivé",
+          "count": 22,
+          "state": "displayed",
+          "path": "Carburant additivé"
+        },
+        {
+          "name": "Station de gonflage",
+          "count": 21,
+          "state": "displayed",
+          "path": "Station de gonflage"
+        },
+        {
+          "name": "DAB (Distributeur automatique de billets)",
+          "count": 18,
+          "state": "displayed",
+          "path": "DAB (Distributeur automatique de billets)"
+        },
+        {
+          "name": "Lavage automatique",
+          "count": 18,
+          "state": "displayed",
+          "path": "Lavage automatique"
+        },
+        {
+          "name": "Automate CB 24/24",
+          "count": 15,
+          "state": "displayed",
+          "path": "Automate CB 24/24"
+        },
+        {
+          "name": "Relais colis",
+          "count": 12,
+          "state": "displayed",
+          "path": "Relais colis"
+        },
+        {
+          "name": "Vente de pétrole lampant",
+          "count": 10,
+          "state": "displayed",
+          "path": "Vente de pétrole lampant"
+        },
+        {
+          "name": "Toilettes publiques",
+          "count": 7,
+          "state": "displayed",
+          "path": "Toilettes publiques"
+        },
+        {
+          "name": "Services réparation / entretien",
+          "count": 6,
+          "state": "displayed",
+          "path": "Services réparation / entretien"
+        },
+        {
+          "name": "Vente de fioul domestique",
+          "count": 4,
+          "state": "displayed",
+          "path": "Vente de fioul domestique"
+        },
+        {
+          "name": "Restauration à emporter",
+          "count": 3,
+          "state": "displayed",
+          "path": "Restauration à emporter"
+        },
+        {
+          "name": "Vente d'additifs carburants",
+          "count": 3,
+          "state": "displayed",
+          "path": "Vente d'additifs carburants"
+        },
+        {
+          "name": "Wifi",
+          "count": 3,
+          "state": "displayed",
+          "path": "Wifi"
+        }
+      ]
+    },
+    {
+      "name": "horaires_automate_24_24",
+      "facets": [
+        {
+          "name": "Non",
+          "count": 32,
+          "state": "displayed",
+          "path": "Non"
+        },
+        {
+          "name": "Oui",
+          "count": 15,
+          "state": "displayed",
+          "path": "Oui"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "ville": "Lille",
+  "pop": "R",
+  "reg_name": "Hauts-de-France",
+  "com_arm_code": "59350",
+  "dep_name": "Nord",
+  "prix_nom": "SP98",
+  "com_code": "59350",
+  "epci_name": "Métropole Européenne de Lille",
+  "dep_code": "59",
+  "services_service": "Boutique alimentaire//Restauration à emporter//Station de gonflage//Services réparation / entretien//Vente de gaz domestique (Butane, Propane)",
+  "prix_id": "6",
+  "horaires_automate_24_24": "Non",
+  "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+  "com_arm_name": "Lille",
+  "prix_maj": "2022-11-23T10:45:00+00:00",
+  "id": "59000010",
+  "reg_code": "32",
+  "adresse": "72 Avenue du Président John F. Kennedy",
+  "geom": [
+    50.632,
+    3.07
+  ],
+  "epci_code": "200093201",
+  "cp": "59000",
+  "prix_valeur": 1.781,
+  "com_name": "Lille"
+}
